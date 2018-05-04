@@ -2,7 +2,7 @@
 
 ## To Start
 
-1. run `npm start` in root directory 
+1. run `npm start` in /root/ 
 2. run `npm start` in /root/client/
 
 ## Deployed Link
