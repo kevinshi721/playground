@@ -1,0 +1,54 @@
+.main-login{
+	margin-right: 0.5rem;
+}
+
+.main-login-div{
+	display: inline-block;
+}
+
+.main-signup-div{
+	display: inline-block;
+	position: relative;
+	margin-left: auto;
+
+}
+
+.nav-bar-div {
+	align-items: center;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	/*background-color: whitesmoke;*/
+}
+
+.main-body-register{
+	position: absolute;
+	top: 60px;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-color: whitesmoke;
+}
+
+.login-form{
+	position: relative;
+	top: 25%;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login-title{
+	font-size: 15px;
+	font-weight: bold;
+	color: grey;
+}
+
+.register-view-hr{
+	top:60px;
+	margin:0;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}

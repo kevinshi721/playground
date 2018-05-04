@@ -1,0 +1,88 @@
+.nav-bar-div {
+	align-items: center;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+}
+
+
+.site-logo{
+	margin-left: 50px;
+}
+
+.site-icon{
+	display: inline-block;
+	background-image: url(./icons/logo.png);
+	width: 34px;
+	height: 35px;
+	background-size: 34.5px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.site-name.navbar-brand{
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+#root > div > div > div > nav > a.site-name.navbar-brand{
+	margin-left: 0.5%;
+	color:grey;
+}
+
+.search-box{
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	margin-left: 35%;
+	margin-right: 30%; 
+}
+
+.search-icon{
+	display: inline-block;
+	background-image: url(./icons/search.svg);
+	width: 20px;
+	height: 20px;
+	background-size: 20px;
+	vertical-align: middle;
+}
+
+.search-input{
+	display: inline-block;
+}
+
+.search-value{
+	padding-top: 0;
+	padding-bottom: 0;
+	vertical-align: middle;
+}
+
+.search-list-div{
+	position: absolute;
+	z-index: 10;
+	width: 193px;
+}
+
+.clear-icon{
+	display: inline-block;
+	background-image: url(./icons/clear.svg);
+	width: 20px;
+	height: 20px;
+	background-size: 20px;
+	vertical-align: middle;
+}
+
+.login{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#root > div > div > div > nav > div > ul > li.dropdown.show.nav-item > div {
+	position: absolute;
+}
+
+#root > div > div > div > nav > div > ul > li{
+	margin-left: auto;
+}

@@ -1,0 +1,102 @@
+.account-container{
+	height: 18%;
+	width: 100%;
+	position: fixed;
+	background-color: whitesmoke;
+	z-index: 1;
+}
+
+.account-area{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	vertical-align: middle;
+	width: 70%;
+	display: block;
+	background-color: #fff0;
+	z-index: 1;
+}
+
+.account-info-list{
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+	z-index: 1;
+}
+
+.account-info-list li{
+	margin-right: 20px;
+	padding: 0;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 18px;
+	z-index: 1;
+}
+
+.account-name{
+	font-size: 40px;
+	font-weight: bolder;
+	margin-top: 200px;
+	z-index: 1;
+}
+
+
+.account-divider-div{
+	top: 21%;
+	width: 90%;
+	position: fixed;
+	display:block;
+	margin-left: 5%;
+	margin-right: 5%;
+	z-index: 1;
+}
+
+.account-divider{
+	margin-bottom: 0;
+}
+
+.feeds-container{
+	position: relative;
+	top: 140px;
+	width: 70%;
+	height: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 15%;
+}
+
+.feeds-area{
+	position: relative;
+	overflow: scroll;
+
+}
+
+.card img{
+	height: 100%;
+}
+
+.profile-card{
+	margin-bottom: 0.5rem;
+
+}
+
+.card-link{
+	vertical-align: middle;
+}
+
+/*.upvotes-btn{
+	display: inline-block;
+	position: absolute;
+	left: 10%;
+	vertical-align: middle;
+}*/
+
+.delete-btn{
+	display: inline-block;
+	position: absolute;
+	right: 10%;
+	vertical-align: middle;
+}

@@ -1,0 +1,58 @@
+.main-body{
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	height: auto;
+	background-color: whitesmoke;
+	/*z-index: -1;*/
+}
+
+.post-list{
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 15%;
+	width: 65%;
+	overflow: scroll;
+}
+
+.new-post{
+	float: right;
+	position: fixed;
+	right: 0;
+	width: 35%;
+	height: 100%;
+	top: 60px;
+}
+
+.new-post-btn{
+	position: relative;
+	top: 33px;
+	left: 5%;
+}
+
+.upvote-icon{	
+	background-image: url(./icons/upvote.svg);	
+	vertical-align: text-top;	
+	display: inline-block;	
+	height: 18px;	
+	width: 18px;	
+	background-size: 18px;	
+	cursor: pointer;	
+}	
+	
+.upvoted-icon{	
+	background-image: url(./icons/upvoted.svg);	
+}	
+
+.card-title{
+	cursor: pointer;
+}
+
+.commenter{
+	cursor: pointer;
+}
+
+.card-text{	
+	margin-bottom: 0.4rem;	
+}

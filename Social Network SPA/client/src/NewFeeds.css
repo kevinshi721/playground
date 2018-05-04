@@ -1,0 +1,23 @@
+.post-img{
+	width: 100%; 
+	max-width: 750px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.commenter{
+	font-weight: bold;
+}
+
+.comment-btn{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.time-stamp{
+	color: grey;
+	font-weight: lighter; 
+	font-size: 12px;
+	margin-top: 2%;
+}
+

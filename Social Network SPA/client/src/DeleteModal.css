@@ -1,0 +1,7 @@
+#delete-btn{
+	background-image: url(./icons/trash.png);
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	background-size: 17px;
+}
