@@ -1,0 +1,231 @@
+body {
+    background: white;
+    color: #606266;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    background: #303133;
+    position: sticky;
+}
+
+label[for="input-box"] {
+    display: inline-block;
+    color: ghostwhite;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#username {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#username:hover {
+    text-shadow: 1px 5px 2px rgba(224, 15, 15, 0.842);
+    transition: text-shadow 0.4s;
+    cursor: pointer;
+}
+
+input {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    height: 25px;
+    border: lightgray solid 1px;
+    color: #606266;
+    border-radius: 4px;
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#author-box,
+#date-box {
+    width: 150px;
+}
+
+#date-box {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 28px;
+    color: #606266;
+}
+
+main {
+    margin-top: 0px;
+    position: absolute;
+    overflow: auto;
+    height: 380px;
+    width: 730px;
+}
+
+.container {
+    display: block;
+    padding-left: 20px;
+}
+
+section label {
+    display: inline-block;
+    width: 280px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #606266;
+}
+
+p input {
+    display: none;
+    width: 200px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: lightgray solid 1px;
+    color: #606266;
+    border-radius: 4px;
+    margin-top: 0px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.edit-due-date {
+    height: 22px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.edit-mode input {
+    display: inline;
+}
+
+.edit-mode label,
+.edit-mode .delete-btn,
+.edit-mode .complete-btn,
+.edit-mode .incomplete-btn {
+    display: none;
+}
+
+section .author-label {
+    width: 70px;
+}
+
+section .dueDate-label {
+    width: 80px;
+    font-style: italic;
+    font-weight: normal
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: gray solid 5px;
+    margin-block-start: 1.3em;
+    margin-block-end: 0.7em;
+}
+
+button {
+    background: none;
+    border: 0;
+    color: #888;
+    font-size: 15px;
+    width: 80px;
+    cursor: pointer;
+    font-weight: bolder;
+    display: inline-block;
+    text-align: center;
+}
+
+p>button {
+    position: absolute;
+}
+
+section>p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    position: relative;
+}
+
+.add-btn {
+    color: ghostwhite;
+    font-size: 20px;
+}
+
+.add-btn:hover {
+    color: darkorange;
+    transition: color 0.4s;
+}
+
+.complete-btn {
+    color: #888;
+    right: 80px;
+}
+
+.complete-btn:hover {
+    color: lightskyblue;
+    transition: color 0.4s;
+}
+
+.delete-btn {
+    display: inline-block;
+    right: 0px;
+    color: #888;
+}
+
+.delete-btn:hover {
+    color: #F56C6C;
+    transition: color 0.4s;
+}
+
+.complete-label {
+    text-decoration: line-through;
+    color: #F56C6C
+}
+
+.incomplete-btn {
+    color: #888;
+    right: 90px;
+}
+
+.incomplete-btn:hover {
+    color: darkorange;
+    transition: color 0.4s;
+}
+
+.edit-btn {
+    width: 13px;
+}
+
+.edit-btn:hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    top: 375px;
+    /* margin-top: 20px; */
+    /* padding-top: 10px; */
+    text-align: center;
+}
+
+li {
+    font-size: 14px;
+    list-style: none;
+}
+
+footer h5 {
+    margin-block-start: 1.5em;
+    margin-block-end: 0.3em;
+}

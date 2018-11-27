@@ -1,0 +1,25 @@
+{
+  "username": "WoofWoof",
+  "toDoItem": [{
+      "id": "1001",
+      "status": "complete",
+      "value": "shopping",
+      "author": "user2",
+      "dueDate": "11-12-2018"
+    },
+    {
+      "id": "1002",
+      "status": "complete",
+      "value": "parking",
+      "author": "user1",
+      "dueDate": "11-12-2018"
+    },
+    {
+      "id": "1003",
+      "status": "incomplete",
+      "value": "decking",
+      "author": "user3",
+      "dueDate": "12-12-2018"
+    }
+  ]
+}

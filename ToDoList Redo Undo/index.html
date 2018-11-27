@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="src/css/ToDoList.css">
+</head>
+
+<body>
+  <header id="add-div" class="a0">
+    <label for="input-box">ToDoList</label>
+    <a id="username">Username</a><br />
+    <input type="text" id="input-box" name="input-box" placeholder="Todo Item" required>
+    <input type="text" id="author-box" name="author-box" placeholder="Author" required>
+    <input type="date" id="date-box" name="date-box" required>
+    <button class="add-btn">Add</button>
+  </header>
+  <main>
+    <section id="incomplete-div" class="container">
+      <h4>TO DO</h4>
+    </section>
+    <section id="complete-div" class="container">
+      <h4>DONE</h4>
+    </section>
+  </main>
+  <footer>
+    <hr>
+    <strong>Tips</strong>
+    <br><br>
+    <li>Add, Edit, Delete to-do items</li>
+    <li>Use ctrl + z to "undo"</li>
+    <li>Use ctrl + y to "redo"</li>
+    <h5>🐾 Woof Woof 🐾</h5>
+  </footer>
+  <ul>
+  </ul>
+  <!-- <script type="module" src="src/js/ToDoList.js"></script> -->
+  <script src="./dist/ToDoListBundle.min.js"></script>
+</body>
+
+</html>
