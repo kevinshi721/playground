@@ -5,13 +5,9 @@ Or simply `click below links`
 
 ### Social Network SPA
 https://vast-spire-39250.herokuapp.com/
+UserName: testK
+Password: testK
 
 ### Music Recommendation SPA
 https://msic-rcmd.herokuapp.com/
 
-
-### Enjoy, and welcome to your feedback, thanks.
-
----
-
-kevinshi721
