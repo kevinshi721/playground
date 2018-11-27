@@ -12,6 +12,9 @@
 + single page social application, similar to instagram web verion
 + using `React.js`, `Node.js`, `MongoDB`
 
+### **RedSox Bayesian Model**
++ toy model to predict RedSox winning
++ using `python`, `numpy`, `pandas`
 
 ### **Basketball Team Management Database**
 + realational database with little data-mining and data visulization
