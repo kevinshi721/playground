@@ -1,9 +1,9 @@
-# project-garnet
+# Social Network SPA
 
 ## To Start
 
-1. run `npm start` in /garnet/
-2. run `npm start` in /garnet/client/
+1. run `npm start` in /root/ 
+2. run `npm start` in /root/client/
 
 ## Deployed Link
 https://vast-spire-39250.herokuapp.com/
