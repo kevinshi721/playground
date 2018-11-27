@@ -1,10 +1,5 @@
 # ToDoList Redo Undo
 
-### New features 
-1. `Username` `Author` `Due Date` added
-2. `GET` user data through asynchronized HTTP request
-3. `Edit` function implemented
-
 ### Description
 It's a simple todo app with the undo-redo feature
 
@@ -17,14 +12,11 @@ It's a simple todo app with the undo-redo feature
 7. Redo any undone action via using `ctrl + y`
 8. Fixed postion of `<header>` `<footer>`, ensure `<main>` scroll only 
 9. `GET` user data through asynchronized HTTP request
+9. Apply `ES6` features, such as `module import/export`, `class`, `lambda function`  
 
 ### How to use
 + open `terminal` / `cmd`
 + change directory to `root` of the project
 + type `npm install` to install all the dependencies
 + type `npm start` to run the app
-
-### Learning
-+ use `Webpack` for develop server and module bundling
-+ apply `ES6` features, such as `module import/export`, `class`, `lambda function`  
 
