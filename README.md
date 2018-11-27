@@ -1,13 +1,9 @@
-# Welcome to my playground
-Here the detail of my projecs, you can traverse every files for pieces of code.
+## Welcome 
+Here is a secret playground to store part of my projects.
 
-Or simply `click below links`
+### Here is the content:
 
-### Social Network SPA
-https://vast-spire-39250.herokuapp.com/
-+ UserName: testK
-+ Password: testK
-
-### Music Recommendation SPA
-https://msic-rcmd.herokuapp.com/
-
++ **Basketball Team Management Database**, using `SQL` `PowerBI` `R`
++ **Music Recommendation SPA**, using `React.js` `Node.js`
++ **Social NetWork SPA**, using `React.js` `Node.js` `MongoDB`
++ **ToDoList Redo Undo**, using `pure JavaScript`
